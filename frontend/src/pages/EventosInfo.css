@@ -1,0 +1,266 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.container-info {
+    gap: 20px;
+    max-width: 1330px;
+    margin: 0 auto;
+    padding-top: 60px;
+    background-color: #FAEBFF3D;
+  }
+  
+  .flyer-container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .event-flyer {
+    height: 431px;
+    width: 380px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+  .info-container {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-left: 20px;
+  }
+  
+  .info-title {
+    font-weight: 700;
+    font-size: 37px;
+    margin: 0;
+  }
+  
+  .event-descrip {
+    font-size: 18px;
+    line-height: 1.6;
+    width: 70%;
+  }
+  
+  .organizer-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    width: 70%;
+  }
+  
+  .organizer-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .organizer-name {
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .edition-badge {
+    background-color: #D350FF;
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 5px;
+  }
+  
+ /* Iconos de detalles */
+ .event-details {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .detail-item {
+    display: flex;
+    justify-content: start; 
+    align-items: start;
+    gap: 10px;
+    flex: 1;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .icon-detail-container {
+    width: 55px;
+    height: 55px;
+    background-color: #D350FF;
+    color:white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+  }
+  
+  .detail-text {
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+  }
+  
+
+  .detail-text-h{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+  }
+
+
+  .schedule-info {
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+  }
+  
+  .schedule-info h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: start;
+  }
+  
+  .schedule-info div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .schedule-info i {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 400;
+  }
+
+  .schedule-info span {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .map-container {
+    padding-top: 60px;
+  }
+
+
+  .map-container h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: start;
+  }
+
+  .map-container p {
+    font-size: 18px;
+    font-weight:400;
+    text-align: start;
+  }
+
+  .mas-info h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: start;
+    padding-top: 60px;
+  }
+
+  .mas-info p {
+    font-size: 18px;
+    font-weight:400;
+    text-align: start;
+  }
+
+  .mas-info-org h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: start;
+    padding-top: 60px;
+  }
+
+  .mas-info-org p {
+    font-size: 18px;
+    font-weight:400;
+    text-align: start;
+    padding-top: 10px;
+  }
+
+  .mas-info-org i {
+    font-size: 30px;
+  }
+
+  .big-logo {
+    padding-top: 70px;
+    padding-bottom: 200px;
+    }
+  .big-logo img {
+    object-fit: cover;
+    height: 270px;
+    border-radius: 20px;
+  }
+
+
+
+  .container-comment h1 {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: start;
+  }
+
+
+  .container-textarea {
+    padding-left: 10px;
+    padding-right: 90px;
+  }
+
+  .custom-textarea {
+    width: 100%; /* Toma todo el ancho del contenedor */
+    height: 40px; /* Tamaño fijo */
+    border: none; /* Sin bordes */
+    border-bottom: 2px solid #ccc; /* Línea inferior */
+    resize: none; /* Deshabilitar el cambio de tamaño */
+    outline: none; /* Eliminar el borde azul al hacer clic */
+    font-size: 16px; /* Tamaño de la fuente */
+    padding: 5px; /* Espaciado interno */
+  }
+  
+  .custom-textarea:focus {
+    border-bottom: 2px solid #9900CC; /* Cambia el color de la línea al enfocar */
+  }
+
+  .btn-cancel {
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+  }
+  
+  .btn-comment {
+    background-color: #9900CC;
+    padding: 9px 24px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+  }
+
+  .btn-comment:hover {
+    color: white;
+    background-color: #4b4b4b;
+  }

@@ -1,0 +1,130 @@
+body {
+    font-family: 'Inter', sans-serif;
+  }
+
+.header-texts h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    padding-bottom: 45px;
+  }
+  
+  .custom-form-container h3 {
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 25px;
+  }
+  
+  .custom-form-container label {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .full-width-header {
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 0;
+  }
+  
+  .header-buttons {
+    display: flex;
+    gap: 10px;  
+  }
+  
+.custom-form-container {
+    display: flex;
+    gap: 20px;
+    max-width: 900px;
+  }
+  
+  .form-column {
+    flex: 1;
+  }
+  
+  .image-column {
+    width: 250px;
+    padding-top: 40px;
+  }
+
+.image-upload-container {
+    width: 100%;
+    height: 318px;  
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 1rem;
+    position: relative;
+    overflow: hidden;  
+  }
+  
+  .image-upload-container.image-loaded {
+    padding: 0;
+  }
+  
+  .image-preview {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 20px;  
+  }
+  
+  .image-upload-text {
+    color: black;
+    font-weight: bold;
+  }  
+  .custom-form-group {
+    margin-bottom: 1rem;
+    text-align: left;
+    position: relative;
+    width: 100%;
+  }
+  
+  .custom-form-group label {
+    display: block;
+    color: black;
+    left: 15px;
+    transform: translateY(-50%);
+    position: absolute;
+    padding: 0 5px;
+    z-index: 2;
+    background-color: white;
+  }
+  
+  .custom-form-group .form-control {
+    width: 100%;
+    background: transparent;
+    border: 1px solid Neutral grey 400;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  
+  .discription-container {
+    position: relative;
+    width: 700px;
+  }
+  
+  .description-textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+  }
+  
+  .char-count {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 0.875rem;
+    color: #6c757d;
+  }
+  
+  .readonly-field {
+    pointer-events: none;
+  }
+  

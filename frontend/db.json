@@ -1,0 +1,64 @@
+{
+  "eventos": [
+    {
+      "id": 1,
+      "nombre": "Concierto Indie Rock",
+      "descripcion": "Un evento único para disfrutar de las mejores bandas de indie rock en vivo.",
+      "fecha": "2024-12-15",
+      "hora": "20:00",
+      "ubicacion": {
+        "lat": -34.6037,
+        "lng": -58.3816,
+        "direccion": "Av. 9 de Julio, Buenos Aires, Argentina"
+      },
+      "imagenes": [
+        "https://via.placeholder.com/800x400?text=Flyer+1",
+        "https://via.placeholder.com/800x400?text=Flyer+2"
+      ],
+      "redesSociales": {
+        "organizador": "https://www.instagram.com/organizador_evento",
+        "sitioOficial": "https://www.facebook.com/sitio_oficial_evento"
+      }
+    },
+    {
+      "id": 2,
+      "nombre": "Festival de Música Electrónica",
+      "descripcion": "Las mejores DJs de la escena electrónica se reúnen para una noche inolvidable.",
+      "fecha": "2024-12-20",
+      "hora": "22:00",
+      "ubicacion": {
+        "lat": -34.6125,
+        "lng": -58.4081,
+        "direccion": "Estadio Luna Park, Buenos Aires, Argentina"
+      },
+      "imagenes": [
+        "https://via.placeholder.com/800x400?text=Electro+1",
+        "https://via.placeholder.com/800x400?text=Electro+2"
+      ],
+      "redesSociales": {
+        "organizador": "https://www.instagram.com/festival_electro",
+        "sitioOficial": "https://www.facebook.com/festival_electro"
+      }
+    },
+    {
+      "id": 3,
+      "nombre": "Teatro Clásico: Hamlet",
+      "descripcion": "Una obra magistral de William Shakespeare traída al escenario por el elenco más aclamado.",
+      "fecha": "2024-12-25",
+      "hora": "18:30",
+      "ubicacion": {
+        "lat": -34.6002,
+        "lng": -58.3758,
+        "direccion": "Teatro Colón, Buenos Aires, Argentina"
+      },
+      "imagenes": [
+        "https://via.placeholder.com/800x400?text=Hamlet+1",
+        "https://via.placeholder.com/800x400?text=Hamlet+2"
+      ],
+      "redesSociales": {
+        "organizador": "https://www.instagram.com/teatro_colon",
+        "sitioOficial": "https://www.facebook.com/teatro_colon"
+      }
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+
+/*hero*/
+#hero-section {
+  position: relative;
+  height: 600px;
+  width: auto;
+  display: flex;
+  box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.2), 0 8px 30px rgba(0, 0, 0, 0.2);
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+
+.hero {
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(153, 0, 204, 0.7) 0%,
+    rgba(125, 0, 167, 0.634428) 40.09%,
+    rgba(113, 0, 151, 0.476956) 57.36%,
+    rgba(77, 0, 102, 0) 109.66%
+  );
+  pointer-events: none;
+}
+
+
+.hero-content{
+  position: absolute;
+  top: 50%;
+  left: 10vh;
+  transform: translateY(-50%); 
+  color: white;
+  background-color: rgba(0, 0, 0, 0); 
+  padding: 15rem;
+  text-align: left;
+}
+
+.hero-content h1{
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 80px;
+  color: white;
+}
+
+
+@media (max-width: 1024px) {
+  #hero-section {
+    height: 500px; 
+  }
+
+  .hero-content h1 {
+    font-size: 60px; 
+    line-height: 70px; 
+  }
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 900px) {
+  #hero-section {
+    height: 300px; 
+  }
+
+  .hero-content {
+    padding: 1rem; /
+  }
+
+
+  .hero-content h1 {
+    font-size: 40px; 
+    line-height: 44px; 
+  }
+}
+
+
+/* Filtro contenedor */
+#filtro-contenedor {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center; 
+  overflow-x: hidden; 
+  gap: 10px;
+  padding: 15px;
+  padding-bottom: 50px;
+  position: relative;
+  width: 100%;
+  scroll-snap-type: x mandatory; 
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  cursor: grab;
+  
+}
+
+/* Contenedor de los botones */
+#filtro-contenedor .content {
+  display: flex;
+  gap: 10px;
+}
+
+
+/* Estilo de los botones */
+#button-filtro {
+  padding: 10px;
+  width: 222px;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 20px;
+  color: #9900CC;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  border: 2px solid #9900CC;
+  white-space: nowrap;
+  scroll-snap-align: center; 
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+#button-filtro:hover {
+  background-color: #9900CC;
+  color: white;
+  border-color: #9900CC;
+}
+
+
+@media (max-width: 900px) {
+#button-filtro {
+  font-size: 18px;
+  padding: 5px;
+}
+}
+
+
+

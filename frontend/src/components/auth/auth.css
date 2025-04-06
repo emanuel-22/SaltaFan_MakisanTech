@@ -1,0 +1,245 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Fondo con imagen */
+.login-container {
+  background: url("../../assets/img/login-bg.jpg") no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0;
+}
+
+/* Caja del formulario */
+.login-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 63px;
+  width: 100%;
+  border-radius: 20px;
+  max-width: 537px;
+  text-align: center;
+}
+
+/* Título */
+.login-title {
+  color: black;
+  font-size: 52px;
+  font-weight: bold;
+  text-align: start;
+}
+
+/* Formulario */
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+  position: relative;
+}
+
+.form-group label {
+  display: block;
+  color: black;
+  left: 15px;
+  transform: translateY(-50%);
+  position: absolute;
+  padding: 0 5px;
+  z-index: 2;
+  background-color: #f5f3f7;
+}
+
+.form-group .form-control {
+  width: 100%;
+  background: transparent;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+/* Botón principal */
+
+.btn-login {
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #9900cc;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid transparent;
+  font-weight: 700;
+  font-size: 16px;
+}
+.btn-login:hover {
+  background-color: white;
+  border: 2px solid #9900cc;
+  color: #9900cc;
+}
+
+.btn-register {
+  padding: 10px;
+  border-radius: 30px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+  border: 2px solid #4b4b4b;
+  color: #4b4b4b;
+}
+
+.btn-register:hover {
+  color: white;
+  background-color: #4b4b4b;
+}
+/* Mensaje de error */
+.error-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9998;
+}
+
+/* Estilo para el mensaje de error */
+.error-message {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #9900cc;
+  color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  z-index: 9999;
+}
+
+/* Estilo para el mensaje de bienvenida */
+.welcome-message {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #9900cc;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  z-index: 9999;
+}
+
+/* Estilo para los botones */
+.error-btn,
+.welcome-btn {
+  margin-top: 10px;
+  background-color: #ffffff;
+  color: #9900cc;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover para el botón de error y bienvenida */
+.error-btn:hover,
+.welcome-btn:hover {
+  background-color: #7a0099;
+  color: white;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .login-container {
+    padding-top: 70px;
+  }
+
+  .login-box {
+    padding: 30px;
+    max-width: 90%;
+    margin-top: -50px;
+  }
+
+  .login-title {
+    font-size: 40px;
+    text-align: start;
+  }
+
+  .form-group label {
+    font-size: 12px;
+  }
+
+  .btn-login,
+  .btn-register {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-container {
+    padding-top: 50px;
+  }
+
+  .login-box {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: -180px;
+  }
+
+  .login-title {
+    font-size: 30px;
+    text-align: start;
+  }
+
+  .btn-login,
+  .btn-register {
+    font-size: 12px;
+    padding: 6px;
+  }
+}
+
+
+/* Estilos para el contenedor de los intereses */
+.interests-container {
+  display: flex;
+  flex-wrap: no-wrap;
+  gap: 10px; 
+  padding-bottom: 20px;
+}
+
+.interest-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px; 
+  height: 140px; 
+  border: 1px solid #B9BDC7; 
+  border-radius: 20px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.interest-item:hover {
+  background-color: #dcdcdc; 
+}
+
+.interest-item.selected {
+  background-color: #9900CC; 
+  color: white; 
+}

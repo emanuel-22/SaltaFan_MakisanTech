@@ -1,0 +1,133 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.news-info-container {
+  padding: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.bannernewsinfo {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bannerinfonews {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 340px;
+  border-radius: 20px;
+}
+
+.linea-separadora {
+  height: 2px;
+  background-color: black; /* Color de la línea */
+}
+
+.main-news-title-i {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.main-news-card-i {
+  max-width: 1100px;
+  margin: 20px auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-direction: row-reverse;
+}
+
+.bodyimage {
+  flex: 0 0 570px;
+}
+
+.bodyimageb-container {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+  flex-direction: row-reverse;
+}
+
+.bodyimageb {
+  flex: 1;
+  margin-right: 20px;
+  padding-left: 20px;
+}
+
+.bodyimageb img {
+  width: 710px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+  object-position: 25% 35%;
+
+}
+
+.bodyimage img {
+  width: 570px;
+  height: 410px;
+  object-fit: cover;
+  border-radius: 10px;
+  object-position: bottom;
+}
+
+.noticia-content-i {
+  flex-grow: 1; 
+  flex-basis: 0; 
+  text-align: left; 
+  width: 100%; 
+}
+.author-infom-i {
+  width: 245px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.author-name-i {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.news-info-content {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.noticia-content-i h1 {
+  text-align: start;
+}
+
+.news-info-author {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.first-paragraph {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+.bannerinf img {
+ width: 1100px;
+ height: 508px;
+ object-fit: cover;
+ object-position: 25% 75%;
+ border-radius: 20px;
+}

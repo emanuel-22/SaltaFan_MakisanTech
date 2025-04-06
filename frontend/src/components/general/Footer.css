@@ -1,0 +1,119 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Estilos generales para el footer */
+.footer {
+  position: relative;
+  background-color: #9900cc;
+  color: white;
+  text-align: center;
+  padding: 50px; /* Reducimos el padding en pantallas pequeñas */
+  margin-top: 100px;
+  padding-top: 100px;
+}
+
+.footer-top {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 1350px; 
+  height: auto;
+  background-color: white;
+  padding: 34px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px -5px rgba(0, 0, 0, 0.3);
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.icon-circle {
+  width: 60px;
+  height: 60px;
+  background-color: #9900cc;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.icon-circle:hover {
+  transform: scale(1.1);
+}
+
+.footer-title {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  text-decoration-skip-ink: none;
+  padding-bottom: 30px;
+}
+
+.footer-link {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  text-decoration-skip-ink: none;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsividad para pantallas muy pequeñas (móviles muy pequeños) */
+@media (max-width: 480px) {
+  .footer {
+    padding: 20px 10px; /* Reduce aún más el padding */
+  }
+
+  .footer-top {
+    padding: 10px;
+    padding-bottom: 30px;
+  }
+
+  .footer-title {
+    font-size: 18px;
+    padding-bottom: 1px;
+  }
+
+  .icon-circle {
+    width: 40px;
+    height: 40px;
+    font-size: 24px; /* Íconos muy pequeños */
+  }
+
+  .footer-link {
+    font-size: 10px; /* Reducir los enlaces */
+  }
+
+  .footer-content .col-md-3 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+.sf-links {
+  padding-top: 50px;
+}
+}
